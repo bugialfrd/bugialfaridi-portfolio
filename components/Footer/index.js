@@ -18,7 +18,7 @@ const Footer = ({}) => {
             </h1>
             <div className="mt-10">
               <Button type="primary"
-                onClick={() => window.open("https://wa.me/085974419850")}
+                onClick={() => window.open("https://wa.me/+6285974419850")}
               >
                 Schedule a chat
               </Button>
