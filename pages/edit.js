@@ -59,22 +59,22 @@ const Edit = () => {
     setData({ ...data, projects: copyProjects });
   };
 
-  // Services Handler
+  // Skill Handler
 
-  const editServices = (serviceIndex, editService) => {
-    let copyServices = data.services;
-    copyServices[serviceIndex] = { ...editService };
-    setData({ ...data, services: copyServices });
+  const editSkill = (skillIndex, editService) => {
+    let copySkill = data.skill;
+    copySkill[skillIndex] = { ...editSkill };
+    setData({ ...data, skill: copySkill });
   };
 
-  const addService = () => {
+  const addSkill = () => {
     setData({
       ...data,
-      services: [
-        ...data.services,
+      skill: [
+        ...data.skill,
         {
           id: uuidv4(),
-          title: "New Service",
+          title: "New Skill",
           description:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         },
@@ -83,9 +83,9 @@ const Edit = () => {
   };
 
   const deleteService = (id) => {
-    const copyServices = data.services;
-    copyServices = copyServices.filter((service) => service.id !== id);
-    setData({ ...data, services: copyServices });
+    const copySkill = data.skill;
+    copySkill = copySkill.filter((skill) => skill.id !== id);
+    setData({ ...data, skill: copySkill });
   };
 
   // Socials Handler
@@ -175,10 +175,10 @@ const Edit = () => {
               Projects
             </Button>
             <Button
-              onClick={() => setCurrentTabs("SERVICES")}
-              type={currentTabs === "SERVICES" && "primary"}
+              onClick={() => setCurrentTabs("SKILL")}
+              type={currentTabs === "SKILL" && "primary"}
             >
-              Services
+              Skill
             </Button>
             <Button
               onClick={() => setCurrentTabs("ABOUT")}
@@ -430,16 +430,16 @@ const Edit = () => {
             </div>
           </>
         )}
-        {/* SERVICES */}
-        {currentTabs === "SERVICES" && (
+        {/* SKILL */}
+        {currentTabs === "SKILL" && (
           <>
             <div className="mt-10">
-              {data.services.map((service, index) => (
-                <div key={service.id}>
+              {data.skill.map((skill, index) => (
+                <div key={skill.id}>
                   <div className="flex items-center justify-between">
-                    <h1 className="text-2xl">{service.title}</h1>
+                    <h1 className="text-2xl">{skill.title}</h1>
                     <Button
-                      onClick={() => deleteService(service.id)}
+                      onClick={() => deleteService(skill.id)}
                       type="primary"
                     >
                       Delete
@@ -450,7 +450,7 @@ const Edit = () => {
                     <input
                       value={service.title}
                       onChange={(e) =>
-                        editServices(index, {
+                        editSkill(index, {
                           ...service,
                           title: e.target.value,
                         })
@@ -466,7 +466,7 @@ const Edit = () => {
                     <textarea
                       value={service.description}
                       onChange={(e) =>
-                        editServices(index, {
+                        editSkill(index, {
                           ...service,
                           description: e.target.value,
                         })
