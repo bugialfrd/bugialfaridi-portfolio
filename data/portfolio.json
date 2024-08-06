@@ -7,17 +7,17 @@
   "showBlog": true,
   "darkMode": true,
   "socials": [
-    {
-      "id": "1",
-      "title": "Github",
-      "link": "https://github.com/bugialfrd"
-    },
+    { "id": "1", "title": "Github", "link": "https://github.com/bugialfrd" },
     {
       "id": "2",
       "title": "LinkedIn",
       "link": "https://www.linkedin.com/in/bugi-alfaridi-808b24158/"
     },
-    { "id": "3", "title": "Instagram", "link": "https://instagram.com/bugialfrd/" },
+    {
+      "id": "3",
+      "title": "Instagram",
+      "link": "https://instagram.com/bugialfrd/"
+    },
     { "id": "4", "title": "Email", "link": "mailto:bugialfaridi@gmail.com" }
   ],
   "projects": [
@@ -117,5 +117,7 @@
     "languages": ["Javascript", "HTML5", "CSS", "Python"],
     "frameworks": ["React", "Typescript", "NodeJs"],
     "others": ["Figma", "AdobeXD", "AWS"]
-  }
+  },
+  "showResume": false,
+  "showCursor": true
 }
