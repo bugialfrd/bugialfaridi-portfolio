@@ -25,7 +25,7 @@
       "id": "1",
       "title": "Project One Test",
       "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "imageSrc": "/images/myportfolio.png",
       "url": "https://bugialfaridi-portfolio.vercel.app/"
     },
     {
@@ -86,7 +86,7 @@
       "description": "saya memiliki kemampuan dasar menggunakan adobe photoshop dan adobe illustrator."
     }
   ],
-  "aboutpara": "Welcome to website Bugi Alfaridi I'm a beginner level fullstack developer with 1 years of experience. I'm passionate about building scalable and maintainable web applications. I have experience in building web applications using Javascript, Reactjs, Nextjs, Node.js, Laravel and CodeIgniter. I'm also familiar with Mikrotik and Fortinet.",
+  "aboutpara": "Saya adalah pengembang perangkat lunak yang berorientasi pada karier dan berorientasi pada pengembangan front-end. Saya sangat percaya pada pembelajaran berkelanjutan dan peningkatan diri, jadi saya berusaha sebaik mungkin untuk belajar dalam situasi apa pun, baik yang menguntungkan maupun tidak. Untuk memperluas pengetahuan dan meningkatkan keterampilan development saya.",
   "resume": {
     "tagline": "👋  I'm a software engineer, product designer, and maker.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
