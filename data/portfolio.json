@@ -23,17 +23,17 @@
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
+      "title": "Project My Portfolio",
+      "description": "Web Development",
       "imageSrc": "/images/kartun.jpg",
       "url": "https://bugialfaridi-portfolio.vercel.app/"
     },
     {
       "id": "2",
-      "title": "Project Two",
+      "title": "Project Website Kulik Pictures",
       "description": "Web Development",
       "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "https://bugialfaridi-portfolio.vercel.app/"
+      "url": "https://kulikpictures.vercel.app/"
     },
     {
       "id": "3",
